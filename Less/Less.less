@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ol,
+ul {
+    list-style-type: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+    color: #d31e1e;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+img {
+    vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+a,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 300;
+}
+h2 {
+    color: #323232;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 2;
+}
+h3 {
+    color: #8b8b8b;
+    font-size: 15px;
+}
+h4 {
+    color: #323232;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p {
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.ptb {
+    padding: 70px 0px;
+}
+/* <<<<<<<COMMON CSS END<<<<<<< */
+/* >>>>>>>>>>  MANU = START >>>>>>>>>> */
+.menu_part {
+    width: 100%;
+    z-index: 9999;
+    padding: 10px 0px;
+    position: fixed;
+}
+.menu .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #dddddd;
+    margin-left: 10px;
+    transition: 0.5s;
+    display: block;
+}
+.menu .nav-item.nav-link,
+.menu .nav-item:hover .nav-link {
+    color: #f2f2f2;
+    background: rgba(129, 129, 129, 0.21);
+    border-radius: 3px;
+}
+/* <<<<<<<<<<  MANU = END <<<<<<<<<<< */
+/* >>>>>>>>>>  BANNER = START >>>>>>>>>> */
+.banner_part {
+    background: url(../image/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 250px 0px;
+    .wrapper {
+        padding-top: 30px;
+        height: 80px;
+        font-size: 0;
+        input {
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+        .search {
+            padding: 0 30px;
+            font-size: 18px;
+            width: 60%;
+            max-width: 300px;
+            height: 40px;
+            border: none;
+        }
+        .submit {
+            color: #fff;
+            border: none;
+            background: #fd4f32;
+            width: 150px;
+            height: 40px;
+            h3 {
+                color: #fff;
+                font-weight: 600;
+                line-height: 2.8;
+                font-family: sans-serif;
+            }
+        }
+    }
+}
+/* <<<<<<<<<<  BANNER = END <<<<<<<<<<<< */
+/* >>>>>>>>>> Destination  = START >>>>>>>>>> */
+.destination_part {
+    background: #eee;
+    h3 {
+        padding: 10px 0px 30px;
+    }
+}
+.destination_item {
+    background: #fff;
+    box-shadow: 0 0 1px #d0d0d0;
+   overflow: hidden;
+    img {
+        width: 100%;
+        position: relative;
+         overflow: hidden;
+  transition: .4s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .img-overlay {
+        bottom: 35%;
+        right: 10%;
+        position: absolute;
+        h2 {
+            color: #e6e6e6;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    }
+    h4 {
+        padding: 10px 15px;
+    }
+    p {
+        padding: 0px 40px 10px 15px;
+    }
+}
+/* <<<<<<<<<< Destination  = END <<<<<<<<<<<< */
+/* >>>>>>>>>> BEFORE  = START >>>>>>>>>> */
+.before_item {
+    padding: 50px 0px;
+    h3 {
+        padding-top: 5px;
+        padding-right: 70px;
+        line-height: 1.5;
+    }
+}
+/* <<<<<<<<<<  BEFORE = END <<<<<<<<<<<< */
+/* >>>>>>>>>>  INBOX = START >>>>>>>>>> */
+.inbox_part {
+    background: #eee;
+    .wrapper {
+        padding-top: 30px;
+        height: 80px;
+        font-size: 0;
+        input {
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+        .search {
+            padding: 0 30px;
+            font-size: 18px;
+            width: 60%;
+            max-width: 300px;
+            height: 40px;
+            border: none;
+            background: #ffffff;
+        }
+        .submit {
+            color: #fff;
+            border: none;
+            background: #fd4f32;
+            width: 150px;
+            height: 40px;
+            h3 {
+                color: #fff;
+                font-weight: 500;
+                line-height: 2.8;
+                font-family: sans-serif;
+            }
+        }
+    }
+}
+/* <<<<<<<<<<  INBOX = END <<<<<<<<<<<< */
+/* >>>>>> FOOTER  -START>>>>> */
+.footer_part {
+    background: #1d1d1d;
+    h3 {
+        font-size: 15px;
+        font-family: inherit;
+        padding: 10px;
+        span {
+            color: cornflowerblue;
+        }
+    }
+}
+/* <<<<<< FOOTER -END <<<<<< */

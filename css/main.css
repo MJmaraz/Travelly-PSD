@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+img,
+a,
+span,
+input,
+form,
+.btn,
+.navbar,
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #ff6f6f;
+}
+
+h2 {
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+h2 span {
+    font-weight: 700;
+}
+
+h3 {
+    color: #414042;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h4 {
+    color: #414042;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h5 {
+    color: #414042;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #838383;
+}
+.mtb{
+    margin: 30px 0px;
+}
+/* <<<<<<<COMMON CSS END<<<<<<< */
+
+/* >>>>>> MANU PART START>>>>> */
+
+
+
+/* <<<<<< MANU PART END <<<<<< */
+
+
+
+
+
+
+/* -----------------------  */
+
+
+/* >>>>>>  PART START>>>>> */
+
+
+/* <<<<<<  PART END <<<<<< */
